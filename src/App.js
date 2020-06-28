@@ -108,8 +108,8 @@ class App extends React.Component {
                   ...this.state.user,
                   entries: count
                 }
-              }).catch(console.log)
-            })
+              })
+            }).catch(console.log)
         }
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
